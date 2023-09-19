@@ -1,0 +1,16 @@
+PODS:
+  - UniversalLibrary (0.1.0)
+
+DEPENDENCIES:
+  - UniversalLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  UniversalLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UniversalLibrary: c287cecbc3f02eddb907c39cf79e76f929cf2951
+
+PODFILE CHECKSUM: e392325b5d429f7910e52164bdcd64ca4facc6ec
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,6 @@
+framework module UniversalLibrary {
+  umbrella header "UniversalLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

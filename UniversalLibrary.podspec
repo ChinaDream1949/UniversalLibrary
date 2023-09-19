@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UniversalLibrary'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of UniversalLibrary.'
+  s.version          = '1.0.0'
+  s.summary          = 'UniversalLibrary 是一个通用的 iOS 库，提供了一些常用的功能和工具，帮助开发者更快速地构建 iOS 应用程序。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
