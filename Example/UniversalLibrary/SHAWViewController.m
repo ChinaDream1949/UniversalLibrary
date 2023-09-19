@@ -19,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    _btn = [[ShawCountDownButton alloc]initWithFrame:CGRectMake(100, 100, 100, 40)];
+    
+    [self.view addSubview:_btn];
 }
 
 - (void)didReceiveMemoryWarning
