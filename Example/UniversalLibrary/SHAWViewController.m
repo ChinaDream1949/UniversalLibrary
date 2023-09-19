@@ -8,8 +8,9 @@
 
 #import "SHAWViewController.h"
 
-@interface SHAWViewController ()
 
+@interface SHAWViewController ()
+@property (nonatomic , strong) ShawCountDownButton *btn;
 @end
 
 @implementation SHAWViewController
