@@ -7,7 +7,8 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+UniversalLibrary 是一个通用的 iOS 库，提供了一些常用的功能和工具，帮助开发者更快速地构建 iOS 应用程序。
+要运行示例项目，克隆repo，并首先从example目录运行' pod install '。
 
 ## Requirements
 
