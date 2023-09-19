@@ -10,7 +10,7 @@
 
 
 @interface SHAWViewController ()
-@property (nonatomic , strong) ShawCountDownButton *btn;
+//@property (nonatomic , strong) ShawCountDownButton *btn;
 @end
 
 @implementation SHAWViewController
