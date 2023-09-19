@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0473491D69BD4C1977EAB302978E9E8C /* Pods-UniversalLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511A7282BD57FB5062CA3646CF229DF /* Pods-UniversalLibrary_Example-dummy.m */; };
 		058F4F6E2AB9855E005996B3 /* ShawCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 058F4F6C2AB9855E005996B3 /* ShawCountDownButton.m */; };
-		058F4F6F2AB9855E005996B3 /* ShawCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 058F4F6D2AB9855E005996B3 /* ShawCountDownButton.h */; };
+		058F4F6F2AB9855E005996B3 /* ShawCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 058F4F6D2AB9855E005996B3 /* ShawCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10D2B85566807F004CCA383D487C0CB3 /* Pods-UniversalLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D84EEAF30E610618489B1D1708048BE /* Pods-UniversalLibrary_Tests-dummy.m */; };
 		5BDD52892D3A4ECF108BA11E066C9222 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 218D0DD6DF5463DF2CFDF22760E16FD9 /* ReplaceMe.m */; };
 		7D113C91D8EF2D44E297FAD2F2621121 /* Pods-UniversalLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B33EF9711B15BB4697AE0E7FB59B9DDF /* Pods-UniversalLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
