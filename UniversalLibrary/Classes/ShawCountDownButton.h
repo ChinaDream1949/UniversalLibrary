@@ -17,27 +17,27 @@ typedef NS_ENUM(NSInteger, ShawCountDownButtonType) {
 
 @interface ShawCountDownButton : UIButton
 /// 样式，默认ShawCountDownButtonTypeNormal
-@property (nonatomic, assign) IBInspectable NSInteger hlType UI_APPEARANCE_SELECTOR;
+@property (nonatomic, assign) IBInspectable NSInteger hlType ;
 /// 是否可用，默认YES
-@property (nonatomic, assign) IBInspectable BOOL hlEnabled UI_APPEARANCE_SELECTOR;
+@property (nonatomic, assign) IBInspectable BOOL hlEnabled ;
 /// 正常标题，默认“获取验证码”
-@property (nonatomic, copy) IBInspectable NSString *normalTitle UI_APPEARANCE_SELECTOR;
+@property (nonatomic, copy) IBInspectable NSString *normalTitle ;
 /// 重新获取标题，默认“获取验证码”
-@property (nonatomic, copy) IBInspectable NSString *againTitle UI_APPEARANCE_SELECTOR;
+@property (nonatomic, copy) IBInspectable NSString *againTitle ;
 /// 发送中标题格式，默认“%ds 后获取”
-@property (nonatomic, copy) IBInspectable NSString *sendingTitleFormat UI_APPEARANCE_SELECTOR;
+@property (nonatomic, copy) IBInspectable NSString *sendingTitleFormat ;
 /// 高亮颜色，默认0x4181FE
-@property (nonatomic, strong) IBInspectable UIColor *highlightedColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic, strong) IBInspectable UIColor *highlightedColor ;
 /// 非高亮颜色，默认0xd2d2d2
-@property (nonatomic, strong) IBInspectable UIColor *disabledColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic, strong) IBInspectable UIColor *disabledColor ;
 /// 圆角半径，默认4
-@property (nonatomic, assign) IBInspectable CGFloat cornerRadius UI_APPEARANCE_SELECTOR;
+@property (nonatomic, assign) IBInspectable CGFloat cornerRadius ;
 /// 边框宽度，默认0.5
-@property (nonatomic, assign) IBInspectable CGFloat borderWidth UI_APPEARANCE_SELECTOR;
+@property (nonatomic, assign) IBInspectable CGFloat borderWidth ;
 /// 倒计时长，默认60s
-@property (nonatomic, assign) IBInspectable NSInteger countDownSize UI_APPEARANCE_SELECTOR;
+@property (nonatomic, assign) IBInspectable NSInteger countDownSize ;
 /// 点击后是否自动倒计时（如果为NO，需要自己调用startCountDown触发倒计时），默认YES
-@property (nonatomic, assign) IBInspectable BOOL autoCountDown UI_APPEARANCE_SELECTOR;
+@property (nonatomic, assign) IBInspectable BOOL autoCountDown ;
 
 /// 点击回调
 @property (nonatomic, strong) void(^startBlock)(void);

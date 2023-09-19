@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		129ADD65A7F655244C5E65BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		12FE8DF3ADB14412085476E8 /* UniversalLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UniversalLibrary.podspec; path = ../UniversalLibrary.podspec; sourceTree = "<group>"; };
+		12FE8DF3ADB14412085476E8 /* UniversalLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UniversalLibrary.podspec; path = ../UniversalLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		22136C3690CDF5956028D106 /* Pods-UniversalLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-UniversalLibrary_Example/Pods-UniversalLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2944E5FD82A2FBCE73200FE3 /* Pods-UniversalLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-UniversalLibrary_Tests/Pods-UniversalLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UniversalLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };

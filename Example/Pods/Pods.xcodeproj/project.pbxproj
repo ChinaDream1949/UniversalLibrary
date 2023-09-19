@@ -49,10 +49,10 @@
 		218D0DD6DF5463DF2CFDF22760E16FD9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UniversalLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		21EE6CB7DACF7C981463B09CE3A81077 /* UniversalLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UniversalLibrary-dummy.m"; sourceTree = "<group>"; };
 		2B99F4916ABA2B86C1AECE931009F94E /* Pods-UniversalLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		40A1F5BFD6BCB46FBFEF2D0BF108ADFD /* UniversalLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UniversalLibrary; path = UniversalLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A1F5BFD6BCB46FBFEF2D0BF108ADFD /* UniversalLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UniversalLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED0F3E1ED81BA57F0584B1F0AF2E273 /* Pods-UniversalLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54E104D29C9DA055E605BC66247413AF /* Pods-UniversalLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UniversalLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5663C6DF24CCF5B3BB21CA9CAFEF4E7C /* Pods-UniversalLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UniversalLibrary_Tests"; path = Pods_UniversalLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5663C6DF24CCF5B3BB21CA9CAFEF4E7C /* Pods_UniversalLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C01665C06E88421589E25775D9696F0 /* UniversalLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UniversalLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6511A7282BD57FB5062CA3646CF229DF /* Pods-UniversalLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		651237DB49007B275141C11895E08135 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		D558340C1627E936442A72F6D2CB4A75 /* Pods-UniversalLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniversalLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		E5249AE00AE576F31CF67C39EDE7EB62 /* Pods-UniversalLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniversalLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB2E4DE2A18936DF3948EFE494C26E60 /* UniversalLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UniversalLibrary-prefix.pch"; sourceTree = "<group>"; };
-		F9BC4823C68E024034305ECFFD19FF30 /* Pods-UniversalLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UniversalLibrary_Example"; path = Pods_UniversalLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BC4823C68E024034305ECFFD19FF30 /* Pods_UniversalLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,9 +222,9 @@
 		E7406787EC25E765FD8B18F21CB5C332 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9BC4823C68E024034305ECFFD19FF30 /* Pods-UniversalLibrary_Example */,
-				5663C6DF24CCF5B3BB21CA9CAFEF4E7C /* Pods-UniversalLibrary_Tests */,
-				40A1F5BFD6BCB46FBFEF2D0BF108ADFD /* UniversalLibrary */,
+				F9BC4823C68E024034305ECFFD19FF30 /* Pods_UniversalLibrary_Example.framework */,
+				5663C6DF24CCF5B3BB21CA9CAFEF4E7C /* Pods_UniversalLibrary_Tests.framework */,
+				40A1F5BFD6BCB46FBFEF2D0BF108ADFD /* UniversalLibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,7 +275,7 @@
 			);
 			name = UniversalLibrary;
 			productName = UniversalLibrary;
-			productReference = 40A1F5BFD6BCB46FBFEF2D0BF108ADFD /* UniversalLibrary */;
+			productReference = 40A1F5BFD6BCB46FBFEF2D0BF108ADFD /* UniversalLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C79283A6B58D0BB9071E33BF4BA8E053 /* Pods-UniversalLibrary_Tests */ = {
@@ -294,7 +294,7 @@
 			);
 			name = "Pods-UniversalLibrary_Tests";
 			productName = Pods_UniversalLibrary_Tests;
-			productReference = 5663C6DF24CCF5B3BB21CA9CAFEF4E7C /* Pods-UniversalLibrary_Tests */;
+			productReference = 5663C6DF24CCF5B3BB21CA9CAFEF4E7C /* Pods_UniversalLibrary_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D7356B948AA0C58D9C3FE913E3E4F85C /* Pods-UniversalLibrary_Example */ = {
@@ -313,7 +313,7 @@
 			);
 			name = "Pods-UniversalLibrary_Example";
 			productName = Pods_UniversalLibrary_Example;
-			productReference = F9BC4823C68E024034305ECFFD19FF30 /* Pods-UniversalLibrary_Example */;
+			productReference = F9BC4823C68E024034305ECFFD19FF30 /* Pods_UniversalLibrary_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -441,6 +441,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -475,6 +478,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -508,6 +514,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -542,6 +551,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -598,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -662,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -691,13 +703,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UniversalLibrary/UniversalLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UniversalLibrary/UniversalLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UniversalLibrary/UniversalLibrary.modulemap";
 				PRODUCT_MODULE_NAME = UniversalLibrary;
 				PRODUCT_NAME = UniversalLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -722,13 +737,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UniversalLibrary/UniversalLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UniversalLibrary/UniversalLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UniversalLibrary/UniversalLibrary.modulemap";
 				PRODUCT_MODULE_NAME = UniversalLibrary;
 				PRODUCT_NAME = UniversalLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

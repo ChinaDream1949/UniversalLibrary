@@ -7,10 +7,10 @@
 //
 
 #import "SHAWViewController.h"
-
+#import <UniversalLibrary/ShawCountDownButton.h>
 
 @interface SHAWViewController ()
-//@property (nonatomic , strong) ShawCountDownButton *btn;
+@property (nonatomic , strong) ShawCountDownButton *btn;
 @end
 
 @implementation SHAWViewController
