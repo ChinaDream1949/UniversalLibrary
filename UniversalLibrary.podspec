@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UniversalLibrary'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'UniversalLibrary 是一个通用的 iOS 库，提供了一些常用的功能和工具，帮助开发者更快速地构建 iOS 应用程序。'
 
 # This description is used to generate tags and improve search results.
