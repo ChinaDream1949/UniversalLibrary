@@ -11,7 +11,6 @@
 		058F4F6E2AB9855E005996B3 /* ShawCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 058F4F6C2AB9855E005996B3 /* ShawCountDownButton.m */; };
 		058F4F6F2AB9855E005996B3 /* ShawCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 058F4F6D2AB9855E005996B3 /* ShawCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10D2B85566807F004CCA383D487C0CB3 /* Pods-UniversalLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D84EEAF30E610618489B1D1708048BE /* Pods-UniversalLibrary_Tests-dummy.m */; };
-		5BDD52892D3A4ECF108BA11E066C9222 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 218D0DD6DF5463DF2CFDF22760E16FD9 /* ReplaceMe.m */; };
 		7D113C91D8EF2D44E297FAD2F2621121 /* Pods-UniversalLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B33EF9711B15BB4697AE0E7FB59B9DDF /* Pods-UniversalLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99D251D08F27ED604EEC9872847C7F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A0FB34AA2209B9F24C57565760156800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -46,7 +45,6 @@
 		0D8D3986424AECC3A5B1A65C6237FBD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D11FEA295D1247DB7D737DB74243CFC /* UniversalLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniversalLibrary.release.xcconfig; sourceTree = "<group>"; };
 		1D156EBBD1DAEE0492B5F659E4B5B760 /* Pods-UniversalLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniversalLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		218D0DD6DF5463DF2CFDF22760E16FD9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UniversalLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		21EE6CB7DACF7C981463B09CE3A81077 /* UniversalLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UniversalLibrary-dummy.m"; sourceTree = "<group>"; };
 		2B99F4916ABA2B86C1AECE931009F94E /* Pods-UniversalLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		40A1F5BFD6BCB46FBFEF2D0BF108ADFD /* UniversalLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UniversalLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,7 +188,6 @@
 		C9EDEE860BE78C8A01F07E3536E2D571 /* UniversalLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				218D0DD6DF5463DF2CFDF22760E16FD9 /* ReplaceMe.m */,
 				058F4F6D2AB9855E005996B3 /* ShawCountDownButton.h */,
 				058F4F6C2AB9855E005996B3 /* ShawCountDownButton.m */,
 				0CD3E0CEFE0F1C6E1B9B62081E573542 /* Pod */,
@@ -391,7 +388,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				058F4F6E2AB9855E005996B3 /* ShawCountDownButton.m in Sources */,
-				5BDD52892D3A4ECF108BA11E066C9222 /* ReplaceMe.m in Sources */,
 				B8A18859229FA567A38337DE92BB1C16 /* UniversalLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
