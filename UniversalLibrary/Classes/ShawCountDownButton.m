@@ -80,9 +80,9 @@
     _disabledColor = UIColorFromHEX(0xd2d2d2);
     _cornerRadius = 4;
     _borderWidth = 0.5f;
-    _hlType = ShawCountDownButtonTypeNormal;
+    _tmdType = ShawCountDownButtonTypeNormal;
     _countDownSize = 60;
-    _hlEnabled = YES;
+    _tmdEnabled = YES;
     _autoCountDown = YES;
 
     [self setTitle:_normalTitle forState:UIControlStateNormal];
@@ -109,10 +109,10 @@
     self.layer.masksToBounds = NO;
     
     // 可用 并 非发送中
-    if (self.hlEnabled && (!self.haveBeenIn)) {
+    if (self.tmdEnabled && (!self.haveBeenIn)) {
         self.userInteractionEnabled = YES;
         
-        switch (self.hlType) {
+        switch (self.tmdType) {
             case ShawCountDownButtonTypeNormal:
                 [self setTitleColor:self.highlightedColor forState:UIControlStateNormal];
                 break;
@@ -135,7 +135,7 @@
     else {
         self.userInteractionEnabled = NO;
         
-        switch (self.hlType) {
+        switch (self.tmdType) {
             case ShawCountDownButtonTypeNormal:
                 [self setTitleColor:self.disabledColor forState:UIControlStateNormal];
                 break;
@@ -257,19 +257,18 @@
         [self setupStyle];
     }
 }
-
-- (void)setHlType:(NSInteger)hlType
+- (void)setTmdType:(NSInteger)tmdType
 {
-    if (_hlType != hlType) {
-        _hlType = hlType;
+    if (_tmdType != tmdType) {
+        _tmdType = tmdType;
         [self setupStyle];
     }
 }
 
-- (void)setHlEnabled:(BOOL)hlEnabled
+- (void)setTmdEnabled:(BOOL)tmdEnabled
 {
-    if (_hlEnabled != hlEnabled) {
-        _hlEnabled = hlEnabled;
+    if (_tmdEnabled != tmdEnabled) {
+        _tmdEnabled = tmdEnabled;
         [self setupStyle];
     }
 }

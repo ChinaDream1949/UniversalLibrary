@@ -17,9 +17,9 @@ typedef NS_ENUM(NSInteger, ShawCountDownButtonType) {
 
 @interface ShawCountDownButton : UIButton
 /// 样式，默认ShawCountDownButtonTypeNormal
-@property (nonatomic, assign) IBInspectable NSInteger hlType ;
+@property (nonatomic, assign) IBInspectable NSInteger tmdType ;
 /// 是否可用，默认YES
-@property (nonatomic, assign) IBInspectable BOOL hlEnabled ;
+@property (nonatomic, assign) IBInspectable BOOL tmdEnabled ;
 /// 正常标题，默认“获取验证码”
 @property (nonatomic, copy) IBInspectable NSString *normalTitle ;
 /// 重新获取标题，默认“获取验证码”
